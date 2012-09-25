@@ -1,6 +1,6 @@
 # Loopy
 
-TODO: Write a gem description
+Ruby gem for running regularly repeated tasks. 
 
 ## Installation
 
@@ -18,7 +18,13 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Loopy.run(method_name, delay_in_seconds, &block)
+
+Example:
+
+Loopy.run("Check twitter", 30) do
+  Twitter.check('@supercool')
+end
 
 ## Contributing
 
