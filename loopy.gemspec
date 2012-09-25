@@ -10,7 +10,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["nigel.ramsay@abletech.co.nz"]
   gem.description   = %q{Ruby gem for running regularly repeated tasks}
   gem.summary       = %q{Runs a block repeatedly every X seconds}
-  gem.homepage      = "http://www.abletech.co.nz/"
+  gem.homepage      = "https://github.com/AbleTech/loopy"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
