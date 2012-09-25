@@ -9,7 +9,7 @@ Gem::Specification.new do |gem|
   gem.authors       = ["Nigel Ramsay"]
   gem.email         = ["nigel.ramsay@abletech.co.nz"]
   gem.description   = %q{Ruby gem for running regularly repeated tasks}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.summary       = %q{Runs a block repeatedly every X seconds}
   gem.homepage      = "http://www.abletech.co.nz/"
 
   gem.files         = `git ls-files`.split($/)
