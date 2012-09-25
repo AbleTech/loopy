@@ -18,13 +18,13 @@ Or install it yourself as:
 
 ## Usage
 
-Loopy.run(method_name, delay_in_seconds, &block)
+    Loopy.run(method_name, delay_in_seconds, &block)
 
 Example:
 
-Loopy.run("Check twitter", 30) do
-  Twitter.check('@supercool')
-end
+    Loopy.run("Check twitter", 30) do
+      Twitter.check('@supercool')
+    end
 
 ## Contributing
 
