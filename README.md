@@ -1,6 +1,7 @@
 # Loopy
 
-Ruby gem for running regularly repeated tasks. 
+Ruby gem for running regularly repeated tasks. Ideally for tasks that need to be run so frequently that Cron
+is an unsuitable choice. For example, jobs that need to run every 30 seconds.
 
 ## Installation
 
